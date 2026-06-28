@@ -2,13 +2,13 @@
 
 A personal birthday invitation landing page for Nesia's 18th birthday celebration. The page features a hero section announcing the event, followed by an RSVP section where guests can confirm their attendance by clicking 'Coming' or 'Not Coming' buttons, with responses automatically sent to the host's email.
 
-Source: https://18-876591ec.zappy5.app
+Source: https://example.com
 
 ---
 
 ## אשרו הגעה עכשיו למסיבה הכי שווה — יום הולדת 18 לנסיה
 
-URL: https://18-876591ec.zappy5.app
+URL: https://example.com
 Description: הזמנה דיגיטלית ליום הולדת 18 של נסיה מחכה לכם! לחצו &#39;מגיע/ה&#39; או &#39;לא מגיע/ה&#39; והתשובה נשלחת אוטומטית למייל המארחת. אל תפספסו חגיגה בלתי נשכחת עם מוזיקה, חברים ואווירה מטורפת.
 
 אשרו הגעה עכשיו למסיבה הכי שווה — יום הולדת 18 לנסיה
@@ -520,7 +520,7 @@ Description: הזמנה דיגיטלית ליום הולדת 18 של נסיה מ
 
 ## מדיניות פרטיות
 
-URL: https://18-876591ec.zappy5.app/privacy
+URL: https://example.com/privacy
 Description: מדיניות הפרטיות שלנו - כיצד אנו אוספים, משתמשים ומגנים על המידע שלכם
 
 מדיניות פרטיות
@@ -786,7 +786,7 @@ Description: מדיניות הפרטיות שלנו - כיצד אנו אוספי
 
 ## הצהרת נגישות
 
-URL: https://18-876591ec.zappy5.app/accessibility
+URL: https://example.com/accessibility
 Description: הצהרת הנגישות שלנו - מחויבותנו לנגישות דיגיטלית
 
 הצהרת נגישות
@@ -1061,7 +1061,7 @@ Description: הצהרת הנגישות שלנו - מחויבותנו לנגיש�
 
 ## תנאי שימוש
 
-URL: https://18-876591ec.zappy5.app/terms
+URL: https://example.com/terms
 Description: תנאי השימוש באתר - הזכויות והחובות של המשתמשים
 
 תנאי שימוש

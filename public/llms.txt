@@ -7,21 +7,21 @@
 ## Pages
 
 ### דף הבית
-https://18-876591ec.zappy5.app
+https://example.com
 הזמנה דיגיטלית ליום הולדת 18 של נסיה מחכה לכם! לחצו &#39;מגיע/ה&#39; או &#39;לא מגיע/ה&#39; והתשובה נשלחת אוטומטית למייל המארחת. אל תפספסו חגיגה בלתי נשכחת עם מוזיקה, חברים ואווירה מטורפת.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://18-876591ec.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://18-876591ec.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://18-876591ec.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -50,6 +50,6 @@ Event Invitation
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://18-876591ec.zappy5.app/sitemap.xml
-- Robots: https://18-876591ec.zappy5.app/robots.txt
-- Flattened page text (for LLMs): https://18-876591ec.zappy5.app/llms-full.txt
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
