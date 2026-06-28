@@ -4415,6 +4415,388 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 ._access-icon {
   display: flex !important;
 }
+
+/* AI-generated section */
+/* === RSVP Section === */
+.rsvp-section {
+  background: linear-gradient(135deg, #FFF5F9 0%, #F0FAFF 50%, #FFF5F9 100%);
+  padding: 60px 20px 80px;
+  position: relative;
+  overflow: hidden;
+  font-family: system-ui, sans-serif;
+  direction: rtl;
+  text-align: center;
+}
+
+.rsvp-container {
+  max-width: 600px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+/* === Confetti === */
+.confetti-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.confetti {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+  opacity: 0.6;
+  animation: confettiFall 6s ease-in-out infinite;
+}
+
+.confetti-1  { left: 5%;  top: -10px; background: #FF6FB5; animation-delay: 0s; width: 10px; height: 10px; }
+.confetti-2  { left: 15%; top: -20px; background: #7AE7FF; animation-delay: 0.8s; width: 8px; height: 14px; }
+.confetti-3  { left: 25%; top: -15px; background: #FFB347; animation-delay: 1.6s; width: 12px; height: 8px; }
+.confetti-4  { left: 35%; top: -25px; background: #B388FF; animation-delay: 2.4s; width: 10px; height: 12px; }
+.confetti-5  { left: 45%; top: -10px; background: #FF6FB5; animation-delay: 3.2s; width: 14px; height: 6px; }
+.confetti-6  { left: 55%; top: -18px; background: #7AE7FF; animation-delay: 4s; width: 8px; height: 10px; }
+.confetti-7  { left: 65%; top: -22px; background: #FFB347; animation-delay: 4.8s; width: 11px; height: 11px; }
+.confetti-8  { left: 75%; top: -12px; background: #B388FF; animation-delay: 5.2s; width: 9px; height: 13px; }
+.confetti-9  { left: 85%; top: -16px; background: #FF6FB5; animation-delay: 1.2s; width: 13px; height: 7px; }
+.confetti-10 { left: 92%; top: -8px;  background: #7AE7FF; animation-delay: 3.6s; width: 10px; height: 10px; }
+
+@keyframes confettiFall {
+  0%   { transform: translateY(-10vh) rotate(0deg) scale(1); opacity: 0.7; }
+  50%  { transform: translateY(50vh) rotate(180deg) scale(1.2); opacity: 0.4; }
+  100% { transform: translateY(105vh) rotate(360deg) scale(0.8); opacity: 0; }
+}
+
+/* === Card === */
+.rsvp-card {
+  background: #FFFFFF;
+  border-radius: 28px;
+  padding: 40px 32px 36px;
+  box-shadow: 0 8px 40px rgba(255, 111, 181, 0.12), 0 2px 8px rgba(0, 0, 0, 0.06);
+  position: relative;
+  z-index: 2;
+  border: 2px solid rgba(255, 111, 181, 0.15);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.rsvp-card:hover {
+  box-shadow: 0 12px 50px rgba(255, 111, 181, 0.18), 0 4px 12px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
+
+/* === Icon === */
+.rsvp-icon-wrapper {
+  margin-bottom: 8px;
+}
+
+.rsvp-party-icon {
+  font-size: 48px;
+  display: inline-block;
+  animation: bounceIcon 2s ease-in-out infinite;
+}
+
+@keyframes bounceIcon {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-12px); }
+}
+
+/* === Heading === */
+.rsvp-heading {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #201A3A;
+  margin: 0 0 8px 0;
+  line-height: 1.3;
+  letter-spacing: -0.5px;
+}
+
+.rsvp-subheading {
+  font-size: 1.05rem;
+  color: #5A5577;
+  margin: 0 0 28px 0;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+/* === Input === */
+.rsvp-input-group {
+  margin-bottom: 24px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.rsvp-input {
+  width: 100%;
+  max-width: 380px;
+  padding: 16px 20px;
+  font-size: 1.1rem;
+  font-family: system-ui, sans-serif;
+  border: 2px solid #E8E4F0;
+  border-radius: 16px;
+  background: #FAFAFC;
+  color: #201A3A;
+  text-align: right;
+  direction: rtl;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.rsvp-input::placeholder {
+  color: #B0AAC0;
+  font-size: 1rem;
+}
+
+.rsvp-input:focus {
+  border-color: #FF6FB5;
+  box-shadow: 0 0 0 4px rgba(255, 111, 181, 0.12);
+  background: #FFFFFF;
+}
+
+/* === Buttons === */
+.rsvp-buttons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.rsvp-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 16px 32px;
+  font-size: 1.15rem;
+  font-weight: 700;
+  font-family: system-ui, sans-serif;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1.2);
+  border: none;
+  min-width: 160px;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  line-height: 1.2;
+}
+
+.rsvp-btn:focus-visible {
+  outline: 3px solid #201A3A;
+  outline-offset: 3px;
+}
+
+/* Confirm button */
+.rsvp-btn-confirm {
+  background: linear-gradient(135deg, #FF6FB5 0%, #FF3D8E 100%);
+  color: #FFFFFF;
+  box-shadow: 0 6px 24px rgba(255, 111, 181, 0.35);
+}
+
+.rsvp-btn-confirm:hover {
+  transform: translateY(-3px) scale(1.03);
+  box-shadow: 0 10px 32px rgba(255, 111, 181, 0.5);
+}
+
+.rsvp-btn-confirm:active {
+  transform: translateY(0) scale(0.98);
+  box-shadow: 0 4px 16px rgba(255, 111, 181, 0.3);
+}
+
+.rsvp-btn-confirm::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255,255,255,0.25) 0%, transparent 60%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.rsvp-btn-confirm:hover::after {
+  opacity: 1;
+}
+
+/* Decline button */
+.rsvp-btn-decline {
+  background: transparent;
+  color: #5A5577;
+  border: 2.5px solid #D8D4E6;
+  box-shadow: none;
+}
+
+.rsvp-btn-decline:hover {
+  background: #F8F6FC;
+  border-color: #B0AAC0;
+  transform: translateY(-3px) scale(1.03);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+}
+
+.rsvp-btn-decline:active {
+  transform: translateY(0) scale(0.98);
+  background: #F0EDF6;
+}
+
+.btn-emoji {
+  font-size: 1.3rem;
+  line-height: 1;
+}
+
+/* === Reassurance === */
+.rsvp-reassurance {
+  font-size: 0.95rem;
+  color: #7A7299;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  font-weight: 400;
+}
+
+.reassurance-icon {
+  font-size: 1.1rem;
+}
+
+/* === Sparkles === */
+.rsvp-sparkles {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.sparkle {
+  font-size: 1.3rem;
+  animation: sparklePulse 1.8s ease-in-out infinite;
+}
+
+.sparkle:nth-child(1) { animation-delay: 0s; }
+.sparkle:nth-child(2) { animation-delay: 0.6s; }
+.sparkle:nth-child(3) { animation-delay: 1.2s; }
+
+@keyframes sparklePulse {
+  0%, 100% { opacity: 0.4; transform: scale(0.9); }
+  50%      { opacity: 1; transform: scale(1.2); }
+}
+
+/* === Decorative balloon image === */
+.rsvp-decor-image {
+  position: absolute;
+  bottom: -40px;
+  left: -30px;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.rsvp-balloon-img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 20px;
+  opacity: 0.85;
+  animation: floatBalloon 4s ease-in-out infinite;
+}
+
+@keyframes floatBalloon {
+  0%, 100% { transform: translateY(0) rotate(-2deg); }
+  50%      { transform: translateY(-16px) rotate(2deg); }
+}
+
+/* === Responsive === */
+@media (max-width: 768px) {
+  .rsvp-section {
+    padding: 40px 16px 60px;
+  }
+
+  .rsvp-card {
+    padding: 32px 20px 28px;
+    border-radius: 22px;
+  }
+
+  .rsvp-heading {
+    font-size: 1.6rem;
+  }
+
+  .rsvp-subheading {
+    font-size: 0.95rem;
+    margin-bottom: 22px;
+  }
+
+  .rsvp-input {
+    max-width: 100%;
+    font-size: 1rem;
+    padding: 14px 16px;
+    border-radius: 14px;
+  }
+
+  .rsvp-buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .rsvp-btn {
+    width: 100%;
+    max-width: 320px;
+    padding: 15px 24px;
+    font-size: 1.05rem;
+  }
+
+  .rsvp-decor-image {
+    bottom: -20px;
+    left: -15px;
+  }
+
+  .rsvp-balloon-img {
+    width: 90px;
+    height: 90px;
+  }
+
+  .rsvp-party-icon {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 400px) {
+  .rsvp-card {
+    padding: 24px 16px 22px;
+  }
+
+  .rsvp-heading {
+    font-size: 1.4rem;
+  }
+
+  .rsvp-btn {
+    max-width: 280px;
+    padding: 14px 20px;
+    font-size: 1rem;
+  }
+
+  .rsvp-balloon-img {
+    width: 70px;
+    height: 70px;
+  }
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
