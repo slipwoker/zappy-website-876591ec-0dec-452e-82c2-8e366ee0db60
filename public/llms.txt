@@ -1,0 +1,55 @@
+# יום הולדת 18 לנסיה — Generative Engine Optimization Map
+
+> A personal birthday invitation landing page for Nesia's 18th birthday celebration. The page features a hero section announcing the event, followed by an RSVP section where guests can confirm their attendance by clicking 'Coming' or 'Not Coming' buttons, with responses automatically sent to the host's email.
+
+---
+
+## Pages
+
+### דף הבית
+https://18-876591ec.zappy5.app
+הזמנה דיגיטלית ליום הולדת 18 של נסיה מחכה לכם! לחצו &#39;מגיע/ה&#39; או &#39;לא מגיע/ה&#39; והתשובה נשלחת אוטומטית למייל המארחת. אל תפספסו חגיגה בלתי נשכחת עם מוזיקה, חברים ואווירה מטורפת.
+
+## Legal & Policy
+
+### Privacy Policy
+https://18-876591ec.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://18-876591ec.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://18-876591ec.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About יום הולדת 18 לנסיה
+A personal birthday invitation landing page for Nesia's 18th birthday celebration. The page features a hero section announcing the event, followed by an RSVP section where guests can confirm their attendance by clicking 'Coming' or 'Not Coming' buttons, with responses automatically sent to the host's email.
+
+## Target Audience
+- מוזמנים ליום הולדת 18 של נסיה
+- מוזמנים ליום הולדת
+- חברים צעירים
+- בני משפחה
+
+## Industry
+Event Invitation
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://18-876591ec.zappy5.app/sitemap.xml
+- Robots: https://18-876591ec.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://18-876591ec.zappy5.app/llms-full.txt
